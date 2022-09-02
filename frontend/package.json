@@ -1,0 +1,59 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^4.2.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "Buffer": "0.0.0",
+    "axios": "^0.26.0",
+    "bootstrap": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0",
+    "multer": "^1.4.5-lts.1",
+    "peer": "^0.6.1",
+    "peerjs": "^1.4.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.2.1",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "5.0.0",
+    "recoil": "^0.7.5",
+    "recoil-persist": "^4.2.0",
+    "sass": "^1.49.9",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.5.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
