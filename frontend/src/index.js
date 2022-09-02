@@ -5,9 +5,9 @@ import {RecoilRoot} from "recoil"
 
 const Root = () => {
     return(
-        <RecoilRoot>
+      
              <App />
-        </RecoilRoot>
+      
     )
 }
 
